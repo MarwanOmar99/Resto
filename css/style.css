@@ -1,0 +1,683 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap');
+*{
+    font-family:"Nunito", sans-serif;
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding: 25px 25px 25px 25px;
+    background-color: white;
+    box-shadow: 0px -15px 72px 4px rgba(0,0,0,0.57);
+    -webkit-box-shadow: 0px -15px 72px 4px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px -15px 72px 4px rgba(0,0,0,0.57);
+}
+.Logo span{
+    font-size: 1.9em;
+    font-weight: bold;
+    color: #192a56;
+    cursor: pointer;
+}
+.Logo i{
+    font-size: 1.9em;
+    font-weight: bold;
+    color: #46bb2e ; 
+}
+.Links{
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+}
+.Links ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    width: 55%;
+    font-size: 1.3em;
+}
+.Links li{
+    width: 20%;
+}
+.Links a{
+    color: #192a56;
+    background-color: white;
+    border-radius: 10px;
+    font-weight: bold;
+    padding: 10px 10px;
+    cursor: pointer;
+    transition-duration:0.3s;
+}
+.Links a:hover{
+    color: white;
+    background-color: #46bb2e;
+}
+.Links .Home{
+    color: white;
+    background-color: #46bb2e;
+}
+.IconNav{
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+}
+.IconNav div{
+    cursor: pointer;
+    display: flex;
+    justify-content:center;
+    background-color: #e2e2e2;
+    width: 25%;
+    height: auto;
+    border-radius: 50%;
+}
+.ic div{
+    align-items:center;
+    justify-content:center;
+    width: 100%;
+    transition-duration:0.2s;
+}
+.ic i{
+    font-size: 1.4em;
+    font-weight: bold;
+    padding: 5px 5px 5px 5px;
+}
+.IconNav div:hover{
+    background-color: #46bb2e;
+    color: white;
+    transform: rotate(180deg);
+}
+header{
+    width: 85%;
+    margin: 0 auto;
+    position: relative;
+}
+.page1{
+    position: relative;
+    top:20px;
+}
+.continer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+.continer .cont{
+    width: 55%;
+}
+.continer .cot{
+    width: 45%;
+
+}
+img{
+    width: 100%;
+}
+.cont .p1{
+    padding-top: 10px;
+    font-size: 2.2em;
+    color: #46bb2e;
+}
+.cont h1{
+    font-size: 6em;
+    color: #192a56;
+}
+.cont h2{
+    font-size: 6em;
+    color: #192a56;
+}
+.cont .p2{
+    font-size: 2.2em;
+    color: #666666;
+}
+.cont a{
+    border-radius: 5px;
+    color: white;
+    background-color: #192a56   ;
+    font-size: 1.4em;
+    padding: 5px 40px ;
+    transition-duration:0.2s;
+    cursor: pointer;
+}
+.OrderBTN{
+    margin-top: 30px;
+}
+.cont a:hover{
+    color: white;
+    background-color: #46bb2e   ;
+    padding: 5px 60px ;  
+}
+.content1{
+    background-color: #f9f4f4;
+    height: 210vh;
+}
+.page2{
+    width: 85%;
+    margin: 0 auto;
+    position: relative;
+    top: 40px;
+}
+.cont1Card{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cont1Card .con{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.Cards1{
+    
+    width: 100%;
+    gap: 40px;
+    flex-wrap:wrap;
+    display: flex;
+}
+.cont1Card  p{
+    font-size: 2.4em;
+    color: #192a56;
+    position: relative;
+}
+.cont1Card .con::after{
+    content:'';
+    position: absolute;
+    width: 60%;
+    height: 0.17rem;
+    background: #46bb2e;
+    bottom: -10px;
+    left: 45px;
+    text-align: center;
+}
+.cont1Card p::after{
+    content:'';
+    position: absolute;
+    width: 70%;
+    height: 0.17rem;
+    background: #46bb2e;
+    bottom: 0;
+    left: 28px;
+    text-align: center;
+}
+.cont1Card p::before{
+    content:'';
+    position: absolute;
+    width: 100%;
+    height: 0.17rem;
+    background: #46bb2e;
+    left: 0;
+    top: 55px;
+    text-align: center;
+}
+.cont1Card .tem{
+    padding: 40px 40px 40px 40px;
+}
+.cont1Card h2{
+    font-size: 2.4em;
+    color: #192a56;
+}
+.ppr{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+    padding: 10px 10px 10px 10px;
+    width: 30%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 28px -6px rgba(0,0,0,0.45);
+    -webkit-box-shadow: 0px 0px 28px -6px rgba(0,0,0,0.45);
+    -moz-box-shadow: 0px 0px 28px -6px rgba(0,0,0,0.45);
+}
+.HIcon{
+    visibility: hidden;
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    transition-duration:0.2s;
+}
+.ppr:hover .HIcon {
+
+    visibility: visible;
+}
+
+.HIcon div{
+    cursor: pointer;
+    display: flex;
+    justify-content:center;
+    background-color: #e2e2e2;
+    width: 18%;
+    height: auto;
+    border-radius: 50%;
+}
+.eyee div{
+    align-items:center;
+    justify-content:center;
+    width: 100%;
+    transition-duration:0.2s;
+    padding: 15px 15px 15px 15px;
+}
+.eyee i{
+    font-size: 1.4em;
+    font-weight: bold;
+}
+.hearte div{
+    align-items:center;
+    justify-content:center;
+    width: 100%;
+    transition-duration:0.2s;
+}
+.hearte i{
+    font-size: 1.4em;
+    font-weight: bold;
+    padding: 5px 5px 5px 5px;
+}
+.ImgCard{
+    width: 80%;
+}
+.CardTile{
+    width: 80%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.CardTile h2{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: #192a56;
+}
+.Star i{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 1.4em;
+    color: #46bb2e;   
+}
+.Ti span{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #46bb2e;
+    font-weight: bold;
+    font-size: 1.8em;
+    margin-right: 20px;
+}
+.Ti a{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 1.2em;
+    padding: 10px 10px;
+    background-color: #192a56;
+    color: white;
+    border-radius: 5px;
+}
+.niy{
+    height: 120vh;
+}
+
+.page3{
+    width: 85%;
+    margin: 0 auto;
+    position: relative;
+    top: 40px;
+}
+.contenImg3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenImg3 .FullImg{
+    width: 50%;
+}
+.contenImg3 .TitleImg{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction:column;
+}
+.titeCo h2{
+    color: #192a56;
+    font-size: 3em;
+}
+.titeCo p{
+    color: #192a56;
+    font-size: 1.2em;
+    line-height:200%;
+}
+.TitleImg .iconDiv{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.iconDiv div{
+    border-radius: 15px;
+    border: 1px solid #192a56;
+    background-color: #f9f4f4;
+    padding: 30px 20px 30px 20px;   
+}
+.BTNIc{
+    margin-top: 30px;
+}
+.BTNIc a{
+    border-radius: 8px;
+    font-size: 1.4em;
+    padding: 5px 20px;
+    background-color:#192a56;
+    color: white;
+    cursor: pointer;
+    transition-duration:0.2s;
+}
+.BTNIc a:hover{
+    letter-spacing:3px;
+    background-color: #46bb2e;
+}
+.iconDiv i{
+    color: #46bb2e;
+    font-size: 1.6em;
+    padding-right: 5px;
+}
+.iconDiv span{
+    color: #192a56;
+    font-size: 1em;
+}
+.Title3{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Title3 .con{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.Title3 p{
+    font-size: 2.4em;
+    color: #192a56;
+    position: relative;
+}
+.Title3 .con::after{
+    content:'';
+    position: absolute;
+    width: 60%;
+    height: 0.17rem;
+    background: #46bb2e;
+    bottom: -10px;
+    left: 45px;
+    text-align: center;
+}
+.Title3 p::after{
+    content:'';
+    position: absolute;
+    width: 70%;
+    height: 0.17rem;
+    background: #46bb2e;
+    bottom: 0;
+    left: 28px;
+    text-align: center;
+}
+.Title3 p::before{
+    content:'';
+    position: absolute;
+    width: 100%;
+    height: 0.17rem;
+    background: #46bb2e;
+    left: 0;
+    top: 55px;
+    text-align: center;
+}
+.Title3 .tem{
+    padding: 40px 40px 40px 40px;
+}
+.Title3 h2{
+    font-size: 2.4em;
+    color: #192a56;
+}.carding{
+    height: 260vh;
+    background-color: #f9f4f4;
+}
+.page4{
+    width: 85%;
+    margin: 0 auto;
+    position: relative;
+    top: 40px;
+}
+.card2{
+    
+    width: 100%;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap:wrap;
+    display: flex;
+}
+.ppr1{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: white;
+    width: 30%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: start;
+    box-shadow: 0px 0px 28px -6px rgba(0,0,0,0.45);
+    -webkit-box-shadow: 0px 0px 28px -6px rgba(0,0,0,0.45);
+    -moz-box-shadow: 0px 0px 28px -6px rgba(0,0,0,0.45);
+}
+.ImgCard1{
+    position: relative;
+}
+.ImgCard1 img{
+    width: 100%;
+    
+}
+.CardTile1{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-bottom: 20px;
+}
+.CardTile1 h2{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: #192a56;
+}
+.CardTile1 span{
+    font-size: 1.2em;
+    line-height:200%;
+}
+.Star i{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 1.4em;
+    color: #46bb2e;   
+}
+.Ti span{
+    padding-left: 20px;
+    color: #46bb2e;
+    font-weight: bold;
+    font-size: 2em;
+}
+.Ti a{
+    font-size: 1.2em;
+    padding: 10px 10px;
+    background-color: #192a56;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition-duration: 0.2s;
+}
+.Ti{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Ti a:hover{
+    background-color: #46bb2e;
+}
+.IconNav1{
+    position: absolute;
+    justify-content: space-between;
+    right: 0;
+    top: 5px;
+    width: 24%;
+}
+.IconNav1 div{
+    cursor: pointer;
+    display: flex;
+    justify-content:center;
+    background-color: white;
+    width: 80%;
+    height: auto;
+    border-radius: 50%;
+}
+.ic1 div{
+    align-items:center;
+    justify-content:center;
+    width: 100%;
+    transition-duration:0.2s;
+}
+.ic1 i{
+    font-size: 1.8em;
+    font-weight: bold;
+    padding: 20px 20px 20px 20px;
+}
+.IconNav1 div:hover{
+    background-color: #46bb2e;
+    color: white;
+}
+.formes{
+    height: 140vh;
+    background-color:#f9f4f4 ;
+}
+.page5{
+    width: 85%;
+    margin: 0 auto;
+    position: relative;
+    top: 40px;
+}
+.alls{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.forming{
+    height: 95vh;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    flex-wrap: wrap;
+}
+.Form1{
+    width: 48%;
+}
+.Form2{
+    width: 48%;
+}
+.ord{
+    margin-top: 20px;
+}
+.ord a{
+    cursor: pointer;
+    border-radius: 5px  ;
+    padding: 10px 20px 10px 20px;
+    background-color: #192a56;
+    color: white;
+    transition-duration: 0.2s;
+}
+.ord a:hover{
+    background-color: #46bb2e;
+}
+.Name input{
+    color: #192a56;
+    font-size: 1.2em;
+    padding: 8px 8px;
+    width: 100%;
+    border-radius: 8px;
+    background-color: #f9f4f4;
+    border:1px  #192a56;
+}
+.Name input:focus{
+    outline:2px solid #46bb2e;
+}
+.Name textarea:focus{
+    outline:2px solid #46bb2e;
+}
+.Name textarea{
+    font-size: 1.1em;
+    padding: 8px 8px;
+    width: 100%;
+    border-radius: 8px;
+    background-color: #f9f4f4;
+    height: 40vh;
+    border:1px  #192a56;
+
+}
+.InName{
+    color: #192a56;
+    font-size: 1.1em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.linkos{
+    height: 50vh;
+}
+.page6{
+    width: 85%;
+    margin: 0 auto;
+    position: relative;
+    top: 40px;
+}
+.linko{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.linko span{
+    font-size: 1.8em;
+    font-weight: 700;
+    color: #192a56;
+    margin-bottom: 20px;
+}
+.bn li{
+    list-style: none;
+}
+.bn a{
+    line-height:200%;
+    text-decoration: none;
+    font-size: 1.1em;
+    padding-top: 80px;
+}
+footer{
+    background-color: #46bb2e;
+}
+.endPage{
+    width: 85%;
+    margin: 0 auto;
+    position: relative;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+.Footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nerom i{
+    color: white;
+    font-size: 1.3em;
+    padding: 10px 10px 10px 10px;
+}
